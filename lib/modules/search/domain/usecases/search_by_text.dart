@@ -10,7 +10,7 @@ abstract class SearchByText {
 }
 
 class SearchByTextImp implements SearchByText{
-  final SearchRespoitory _searchRepository;
+  final ISearchRepository _searchRepository;
 
   SearchByTextImp(this._searchRepository);
 
